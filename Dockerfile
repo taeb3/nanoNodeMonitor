@@ -1,5 +1,5 @@
 # apache with php base image 
-FROM php:7.4.21-apache
+FROM php:7.4.32-apache
 
 # copy all contents to public html
 COPY . /var/www/html
